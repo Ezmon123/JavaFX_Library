@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import library.MainViewController?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.MainViewController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="600.0" prefWidth="800.0" spacing="30.0">
+         <children>
+            <Label prefHeight="47.0" prefWidth="314.0" text="Welcome in Library!">
+               <font>
+                  <Font name="System Bold" size="32.0" />
+               </font>
+            </Label>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="In my library you can loan few books, see what is in my offer!">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" onAction="#switchToBooksView" text="See The Books!" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="If u want to get some information how this loan works just click here!">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" text="How it works?" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets top="30.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
